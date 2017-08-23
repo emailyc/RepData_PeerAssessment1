@@ -4,8 +4,6 @@
 
 ## Loading and preprocessing the data
 
-
-
 ```r
 activity_data = read.csv("activity.csv")
 activity_data$date = as.Date(activity_data$date, "%Y-%m-%d")
